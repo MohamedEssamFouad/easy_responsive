@@ -1,6 +1,6 @@
 name: easy_responsive_flutter
 description: "A Flutter package that helps developers create responsive layouts by adjusting dimensions and font sizes dynamically based on screen size and orientation."
-version: 0.0.1
+version: 0.0.3
 repository: "https://github.com/MohamedEssamFouad/easy_responsive"
 homepage:
 
