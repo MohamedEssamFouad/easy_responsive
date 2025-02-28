@@ -1,4 +1,4 @@
-Easy Responsive 📱💻
+Easy Responsive 📱
 
 📌 Overview
 Easy Responsive is a lightweight Flutter package designed to simplify responsive UI development. It provides an easy-to-use utility for dynamically adjusting dimensions and font sizes based on screen size and orientation, ensuring your Flutter app looks great on all devices—from mobile phones to tablets.
