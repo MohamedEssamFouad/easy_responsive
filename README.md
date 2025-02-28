@@ -14,7 +14,7 @@ Easy Responsive is a lightweight Flutter package designed to simplify responsive
 Add Easy Responsive to your pubspec.yaml:
 
 dependencies:
-easy_responsive: ^0.0.1
+easy_responsive: ^0.0.2
 
 Then, run:
 flutter pub get
@@ -22,7 +22,7 @@ flutter pub get
 📖 Usage
 1️⃣ Responsive Dimensions
 Use responsiveDimension() to get dynamic sizes based on device type.
-import 'package:easy_responsive/easy_responsive.dart';
+import 'package:easy_responsive_flutter/easy_responsive_flutter.dart';
 
 double responsiveWidth(BuildContext context) {
 return ResponsiveUtil.responsiveDimension(
