@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:flutter/widgets.dart';
-import 'package:easy_responsive/easy_responsive.dart';
+import 'package:easy_responsive_flutter/easy_responsive_flutter.dart';
 
 void main() {
   /// Helper function to create a test environment with a fake screen size.
@@ -23,7 +23,7 @@ void main() {
         height: 800,
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveDimension(
+            double? result = EasyResponsiveFlutter.responsiveDimension(
               phoneValue: phoneValue,
               tabletValue: tabletValue,
               context: context,
@@ -41,7 +41,7 @@ void main() {
         height: 1366,
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveDimension(
+            double? result = EasyResponsiveFlutter.responsiveDimension(
               phoneValue: phoneValue,
               tabletValue: tabletValue,
               context: context,
@@ -67,7 +67,7 @@ void main() {
         height: 800, // Portrait mode
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveFontSize(
+            double? result = EasyResponsiveFlutter.responsiveFontSize(
               phoneFontSize: phoneFontSize,
               tabletFontSize: tabletFontSize,
               phoneLandscapeFontSize: phoneLandscapeFontSize,
@@ -88,7 +88,7 @@ void main() {
         height: 400, // Landscape mode
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveFontSize(
+            double? result = EasyResponsiveFlutter.responsiveFontSize(
               phoneFontSize: phoneFontSize,
               tabletFontSize: tabletFontSize,
               phoneLandscapeFontSize: phoneLandscapeFontSize,
@@ -109,7 +109,7 @@ void main() {
         height: 1366,
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveFontSize(
+            double? result = EasyResponsiveFlutter.responsiveFontSize(
               phoneFontSize: phoneFontSize,
               tabletFontSize: tabletFontSize,
               phoneLandscapeFontSize: phoneLandscapeFontSize,
@@ -130,7 +130,7 @@ void main() {
         height: 1024, // Tablet Landscape
         child: Builder(
           builder: (context) {
-            double? result = ResponsiveUtil.responsiveFontSize(
+            double? result = EasyResponsiveFlutter.responsiveFontSize(
               phoneFontSize: phoneFontSize,
               tabletFontSize: tabletFontSize,
               phoneLandscapeFontSize: phoneLandscapeFontSize,

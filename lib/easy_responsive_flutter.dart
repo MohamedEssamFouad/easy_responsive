@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 
-class ResponsiveUtil {
+class EasyResponsiveFlutter {
   static const double tabletBreakpoint = 790.0;
 
   /// Returns a responsive dimension based on the device's screen size.
