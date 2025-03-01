@@ -15,7 +15,10 @@
 
 Add **Easy Responsive** to your `pubspec.yaml`:
 
-```yaml
+```
+
+
+```sh
 dependencies:
   easy_responsive_flutter: ^0.0.3
 ```
@@ -36,7 +39,7 @@ Use `responsiveDimension()` to get dynamic sizes based on device type.
 import 'package:easy_responsive_flutter/easy_responsive_flutter.dart';
 
 double responsiveWidth(BuildContext context) {
-  return ResponsiveUtil.responsiveDimension(
+  return EasyResponsiveFlutter.responsiveDimension(
     phoneValue: 100,
     tabletValue: 200,
     context: context,
@@ -52,7 +55,7 @@ Use `responsiveFontSize()` to adjust text size dynamically.
 Text(
   'Hello, Responsive!',
   style: TextStyle(
-    fontSize: ResponsiveUtil.responsiveFontSize(
+    fontSize: EasyResponsiveFlutter.responsiveFontSize(
       phoneFontSize: 16,
       tabletFontSize: 31,
       phoneLandscapeFontSize: 8,
