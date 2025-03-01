@@ -20,7 +20,7 @@ Add **Easy Responsive** to your `pubspec.yaml`:
 
 ```sh
 dependencies:
-  easy_responsive_flutter: ^0.0.3
+  easy_responsive_flutter: ^0.0.4
 ```
 
 Then, run:
